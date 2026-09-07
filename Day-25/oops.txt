@@ -1,0 +1,25 @@
+Object Oriented Programming
+---> OOPS is used when it is depends on the user.
+---> When we want the interdependent programming or wrapping the data and the methods into one unit we use OOPS
+Class- A class is a blueprint consisting of attributes and methods
+Object- An object is a instance of a class
+---> Four pillars of the OOPs
+Encapsulation- The process of providing the Security or wrappping the data
+Inheritance- The process of extracting the properties from parent class to child class
+---> Types of Inheritance
+1.Single- From parent to child
+2.Multiple- From many parents to single child
+3.Multilevel- From parent to child and child to grand child
+4.Hierarchical- From single parent to multiple childs
+5.Hybrid- Combination of any two inheritance
+Polymorphism- Many forms like same method or interface can behave in multiple forms
+Abstraction- It is the process of hiding the complexity.
+--->Types of attributes
+1.Class Attributes- It is defined inside the class
+2.Instance Attributes- It is defined by the objects
+Self is used to pointing the current object 
+--->Types of methods
+1.Class Method- It is defined inside the class
+2.Instance Method- It is deined by the objects for this use decorator as @classmethod
+3.Static Method- It is used as a helper function for this use decorator as @staticmethod
+ 
