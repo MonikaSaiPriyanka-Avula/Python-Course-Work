@@ -1,0 +1,84 @@
+'''
+#compile time error: syntax error 
+#run time error: Logical error 
+try:used to check the error
+except:error is handled
+else:executes if no error occur
+finally:is for closing tag but executes if error is present or not present
+'''
+
+
+'''try :
+    d = {1:1,2:2,3:3}
+    print(d[4])
+    l = [1,2,3,4,5]
+    print(l[6])
+    print("a" + 7)
+    a = int(input("enter the amount:"))
+    print(n)
+    print(10/0)
+except NameError:
+    print("name is not defined")    
+except ValueError:
+    print("Enter the proper  value")
+except TypeError:
+    print("Use same datatypes")    
+except IndexError:
+    print("Index is out of range")
+except KeyError:
+    print("key is not present")
+except ZeroDivisionError:
+    print("unable to divide a number eith zero")
+else :
+    print("no errors")
+finally :
+    print("end the pogramm")   
+
+   
+try :
+    d = {1:1,2:2,3:3}
+    print(d[4])
+    l = [1,2,3,4,5]
+    print(l[6])
+    print("a" + 7)
+    a = int(input("enter the amount:"))
+    print(n)
+    print(10/0)
+
+except (NameError ,ValueError, TypeError,IndexError ,KeyError ,ZeroDivisionError) as e:
+    print("Error Occured:",e)
+else :
+    print("No errors")
+finally :
+    print("End the pogramm") 
+
+
+try :
+    d = {1:1,2:2,3:3}
+    print(d[4])
+    l = [1,2,3,4,5]
+    print(l[6])
+    print("a" + 7)
+    a = int(input("enter the amount:"))
+    print(n)
+    print(10/0)
+
+except Exception as e:
+    print("Error Occured:",e)
+else :
+    print("No errors")
+finally :
+    print("End the pogramm") 
+  
+
+try :
+    amount = int(input("enter the amount:"))
+    if amount < 0:
+        raise Exception("Amount needs to be Positive")
+except Exception as e:
+    print("Error Occured:",e)
+else :
+    print("No errors")
+finally :
+    print("End the pogramm")'''
+  

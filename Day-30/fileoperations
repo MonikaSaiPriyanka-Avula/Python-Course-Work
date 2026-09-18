@@ -1,0 +1,33 @@
+file = open('demo.txt','r')
+print(file.read())
+file.seek(0)
+print(file.readline())
+file.seek(0)
+print(file.readlines())
+file.close()
+
+
+with open('demo.txt','r') as file:
+    print(file.read())
+    file.seek(0)                     #  WITH  is used only to acces file with in the code and no need to close file if we use with.
+    (file.readline())
+    file.seek(0)
+    print(file.readlines())
+
+
+with open('demo.text','w') as file:
+    file.write("welcome to python class")    
+
+with open('demo.text','a') as file:
+    file.write("\n today is all about file operations")    
+
+with open('demo.text','a+') as file:
+    file.write("\n today is all about file operations") 
+    file.seek(0)
+    print(file.read()) 
+
+
+with open('demo.text','w+') as file:
+    file.write("\n today is all about file operations") 
+    file.seek(0)
+    print(file.read())   
